@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="eng">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health and wellness Quizz App</title>
+    <meta name="desciption" content= "Health check, to test your health and wellness knowledge">
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header role="banner">
+      <h1 id="title-section"> Health And Wellness App</h1>
+      <img id= "main-logo" src='image.png' alt="health and wellness logo woman running" height="85" width="85">
+    </header>
+    <div class='template'>
+
+    <section role='region'>
+
+      <div class='row'>
+
+        <div class='col-6'>
+          <div class='question-counter'>Question: <br><span class="question-number"><font color="blue"> 0</span> / 10</font></div>
+        </div>
+
+          <div class='col-6'>
+            <div class='score-counter'>Score:<br> <span class='score'> <font color="blue">0 </span> / 10</font></div>
+
+          </div>
+        
+      </div>
+
+    </section>
+    <div class='start-page'>
+
+      <p class='start-message'>
+        Knowledge is power when it comes to health and wellness.
+        So, let's put your health and wellness power to the test with a quick knowledge check... 
+      </p>
+
+      <div class='start-button'>
+        <button type="button" class="letsStart">START!</button>
+
+      </div>
+    </div>
+    <div class='question-answer-quiz'></div>
+
+    
+    <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <script src='datastore.js'></script>
+  <script src="script.js"></script>
+    
+    
+    </div>
+  </body>
+</html>
